@@ -64,3 +64,4 @@ crashlytics-build.properties
 **/UserSettings/
 Project/Mole Game Jam/UserSettings/Layouts/CurrentMaximizeLayout.dwlt
 Project/Mole Game Jam/UserSettings/Layouts/CurrentMaximizeLayout.dwlt
+*.meta

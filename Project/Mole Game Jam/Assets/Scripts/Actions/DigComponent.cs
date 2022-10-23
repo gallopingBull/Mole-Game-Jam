@@ -1,12 +1,16 @@
 using System.Collections;
 using UnityEngine;
 
-
 public class DigComponent : MonoBehaviour
 {
     private bool _canDig = false;
+    private bool _digDown = false;  
     [SerializeField]
     private GameObject _holePrefab;
+    [SerializeField]
+    private GameObject _wormDugHolePrefab;
+    private static GameObject _moundTarget;
+
     private Animator _animator;
     private DigDetection _detect;
     public enum DigStates
@@ -16,8 +20,8 @@ public class DigComponent : MonoBehaviour
 
     private DigStates _digState = DigStates.digging_complete;
 
-    public DigStates DigState { get => _digState; set => _digState = value; }
-    public bool CanDig { get => _canDig; set => _canDig = value; }
+    public static GameObject MoundTarget { get => _moundTarget; set => _moundTarget = value; }
+    public bool DigDown { get => _digDown; set => _digDown = value; }
 
     private void Start() => Init();
 
@@ -34,10 +38,8 @@ public class DigComponent : MonoBehaviour
         if (_digState == DigStates.digging_complete)
         {
             // check if section in front of player can be dug
-            // or far enough from obstables/wall to dig
-           
             DetectionResults results = _detect.Results;
-            Debug.Log($"results: {_detect.Results}");
+            //Debug.Log($"results: {_detect.Results}");
             _canDig = IsValid(results);
 
             // init dig action
@@ -54,7 +56,12 @@ public class DigComponent : MonoBehaviour
                 GetComponent<Rigidbody>().velocity = Vector3.zero;
                 PlayerController.Instance.EnableMovement = false;
                 _digState = DigComponent.DigStates.init_dig;
+
                 _animator.SetTrigger("DigInit");
+                if (_digDown)
+                    _animator.SetTrigger("DigDown");
+                else
+                    _animator.SetTrigger("DigForward");
                 StartCoroutine(InitDig());
                 break;
 
@@ -66,7 +73,7 @@ public class DigComponent : MonoBehaviour
                 _animator.SetTrigger("DigCompleted");
                 _canDig = false;
                 _digState = DigStates.digging_complete;
-                PlayerController.Instance.EnableMovement = true;
+      
                 break;
             default:
                 break;
@@ -110,8 +117,7 @@ public class DigComponent : MonoBehaviour
         if (_detect.Results == DetectionResults.dig_floor)
             SpawnDigPrefab();
         else
-            DestroyDiigableWall();
-
+            DestroyDigableWall();
         EnterState(DigComponent.DigStates.digging_complete);
     }
 
@@ -121,9 +127,13 @@ public class DigComponent : MonoBehaviour
         switch (results)
         {
             case DetectionResults.dig_wall:
+                _digDown = false;
                 valid = true;
                 break;
             case DetectionResults.dig_floor:
+                _digDown = true;
+                if (_detect.FoundWorm)
+                    _animator.SetBool("FoundWorm", true);
                 valid = true;
                 break;
             case DetectionResults.not_enough_space:
@@ -144,13 +154,27 @@ public class DigComponent : MonoBehaviour
 
     public void SpawnDigPrefab()
     {
-        var tmp = Instantiate(_holePrefab, _detect._targetPos2);
-        tmp.transform.parent = null;
-        tmp.transform.position = _detect._hitPoint2 - new Vector3(0, .1f, 0);
-        // give random rotation for visual variation
+        if (_detect.FoundWorm)
+        {
+            var ass = Instantiate(_wormDugHolePrefab, _detect._targetPos2);
+            ass.transform.parent = null;
+            ass.transform.position = _detect._hitPoint2 + new Vector3(0, .5f, 0);
+
+            GameEvents.OnFoundWorm?.Invoke();
+        }
+        else
+        {
+            if (_moundTarget)
+                Destroy(_moundTarget);
+            var tmp = Instantiate(_holePrefab, _detect._targetPos2);
+            tmp.transform.parent = null;
+            tmp.transform.position = _detect._hitPoint2 - new Vector3(0, .1f, 0);
+            // give random rotation for visual variation
+        }
+
     }
 
-    public void DestroyDiigableWall()
+    public void DestroyDigableWall()
     {
         //var tmp = Instantiate(_holePrefab, _detect._targetPos2);
         //tmp.transform.parent = null;

@@ -11,18 +11,22 @@ TagManager:
   - DiggableFloor
   - Hole
   - OneWayDiggableWall
+  - Worm
+  - HoleMound
+  - Baby
+  - BlockMesh
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Stealth
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Hole
+  - PlayerLight
+  - Player
+  - TopExteriorWall
+  - Enemy
   - 
   - 
   - 

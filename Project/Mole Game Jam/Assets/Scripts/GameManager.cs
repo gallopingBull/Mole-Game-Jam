@@ -5,8 +5,7 @@ public class GameManager : MonoBehaviour
 {
     private static GameManager _instance;
     [SerializeField ]private GameData _gameData;
-
-    private bool _gameInit = false;
+    [SerializeField ]private GameObject _musicSource;
 
     private int _babyCount = 3; 
     private int _foodSaved = 0;
@@ -65,12 +64,14 @@ public class GameManager : MonoBehaviour
             yield return new WaitForSeconds(1);
             _introCounter--;
         }
-        StartGame();
+        GameEvents.OnGameBegin?.Invoke();
     }
     
     public void StartGame()
     {
         _directorTImeline.SetActive(false);
+        UIManager.Instance.HideIntoCutsceneDialog();
+        SoundManager.PlayMusicTrack();
         StopCoroutine("IntroCutscene");
         PlayerController.Instance.EnableMovement = true;
         PlayerController.Instance.EnableMainLight();

@@ -28,6 +28,7 @@ public class HideComponent : MonoBehaviour
 
     public void UnHide()
     {
+        Debug.Log("Unhide being ");
         _meshRenderer.SetActive(true);
         _mound.SetActive(false);
         _isVisible = true;

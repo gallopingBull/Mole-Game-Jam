@@ -129,7 +129,7 @@ public class CalendarCountdown : MonoBehaviour
         }
         if (_textTarget.alpha != 0)
         {
-            alpha -= 15f * time;
+            alpha -= 45f * time;
             _textTarget.color = new Color(_textTarget.color.r, _textTarget.color.b, _textTarget.color.g, alpha);
         }
     }

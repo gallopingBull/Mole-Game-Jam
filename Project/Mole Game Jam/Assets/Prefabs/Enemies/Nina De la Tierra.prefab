@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 431581992335888710}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ndt_REF:leg_L1_0_jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41,7 +41,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 556572281350586223}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ndt_REF:leg_L0_2_jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -73,7 +73,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5950843873752243919}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ndt_REF:leg_R2_2_jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -105,7 +105,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7823637893173093098}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ndt_REF:foot_R2_1_jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -136,7 +136,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7205753944569481456}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ndt_REF:leg_L1_2_jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -168,7 +168,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7845863527269092503}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ndt_REF:leg_R1_2_jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -200,7 +200,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6315482046010730141}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ndt_REF:leg_L0_0_jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -232,7 +232,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 992115558275176579}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ndt_REF:neck_C0_head_jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -267,7 +267,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9212492545749404492}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ndt_REF:spine_C0_3_jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -299,7 +299,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1299243044111752215}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ndt_REF:spine_C0_2_jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -331,7 +331,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7420046130112238223}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ndt_REF:leg_R2_3_jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -363,7 +363,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 956442147405774001}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ndt_REF:antenea_R0_3_jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -395,7 +395,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2174152759435062949}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ndt_REF:leg_R1_3_jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -428,7 +428,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8839428391518763978}
   - component: {fileID: 1662084745061547841}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ndt_REF:antennea
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -529,7 +529,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3013149188062005988}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ndt_REF:neck_C0_1_jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -561,7 +561,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2275073243155912499}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ndt_REF:leg_L2_2_jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -593,7 +593,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8831225888504040779}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ndt_REF:local_C0_0_jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -625,7 +625,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3843230254958406806}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ndt_REF:leg_R0_7_jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -657,7 +657,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5288902321635038470}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ndt_REF:leg_L2_5_jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -689,7 +689,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7783414539281748018}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ndt_REF:leg_R2_0_jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -722,7 +722,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6347570059809606585}
   - component: {fileID: 3458418927509191962}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ndt_REF:madibleSocket
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -808,7 +808,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5941134942183176552}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ndt_REF:leg_L0_end_jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -840,7 +840,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2156496747320587523}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ndt_REF:leg_R1_0_jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -872,7 +872,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2740008862506850690}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ndt_REF:leg_L2_0_jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -904,7 +904,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2644226162469480376}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ndt_REF:leg_L2_7_jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -936,7 +936,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4666196062805691727}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ndt_REF:leg_L1_end_jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -968,7 +968,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 777831286078938376}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ndt_REF:leg_R1_8_jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1000,7 +1000,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5954537967749844914}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ndt_REF:leg_L2_8_jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1033,7 +1033,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3945036971952311070}
   - component: {fileID: 9174226489176360412}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ndt_REF:mandibles
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1119,7 +1119,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5046569474873467119}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ndt_REF:leg_R0_0_jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1151,7 +1151,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6447493444375013055}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ndt_REF:leg_L1_1_jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1183,7 +1183,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5488494812682283757}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ndt_REF:out
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1217,7 +1217,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2327044860258902624}
   - component: {fileID: 8589260410971035663}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ndt_REF:backLegs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1341,7 +1341,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7522537129691736709}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ndt_REF:spine_C0_hip_jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1375,7 +1375,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3751271975327878558}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ndt_REF:leg_L2_6_jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1407,7 +1407,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 592390505738946539}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ndt_REF:leg_L0_3_jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1439,7 +1439,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2943728557219553255}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ndt_REF:antenea_L0_3_jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1471,7 +1471,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3189548709352128725}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ndt_REF:leg_L2_4_jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1503,7 +1503,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1764767230681824023}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ndt_REF:antenea_L0_6_jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1534,7 +1534,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8005615105707965412}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ndt_REF:leg_R2_1_jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1567,7 +1567,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6810815689409792963}
   - component: {fileID: 7096204844502973323}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ndt_REF:eyes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1705,7 +1705,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 305823458111595554}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ndt_REF:geom
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1736,6 +1736,100 @@ Transform:
   m_Father: {fileID: 5488494812682283757}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &3197565057048036418
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8143314664215064355}
+  - component: {fileID: 1318221366269852550}
+  m_Layer: 0
+  m_Name: Light
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8143314664215064355
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3197565057048036418}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.1631, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7474526651277888054}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!108 &1318221366269852550
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3197565057048036418}
+  m_Enabled: 1
+  serializedVersion: 10
+  m_Type: 2
+  m_Shape: 0
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Intensity: 1.45
+  m_Range: 10
+  m_SpotAngle: 30
+  m_InnerSpotAngle: 21.80208
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 0
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 1024
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 4
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_UseViewFrustumForShadowCasterCull: 1
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
 --- !u!1 &3459300689230097168
 GameObject:
   m_ObjectHideFlags: 0
@@ -1745,7 +1839,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7792910648198159571}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ndt_REF:antenea_L0_1_jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1768,6 +1862,66 @@ Transform:
   m_Father: {fileID: 7888823301118713256}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &3481521778911225587
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8535508819630804190}
+  - component: {fileID: 6153154119573257459}
+  - component: {fileID: 280209627805327456}
+  m_Layer: 10
+  m_Name: AttackComponent
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8535508819630804190
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3481521778911225587}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.0341, z: 0.062}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7474526651277888054}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &6153154119573257459
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3481521778911225587}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.03
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &280209627805327456
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3481521778911225587}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b2299c88336fe84ebc8bebdc9ffb0dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DamageValue: 25
+  DelayDuration: 3
 --- !u!1 &3638326078860230755
 GameObject:
   m_ObjectHideFlags: 0
@@ -1777,7 +1931,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5875019977650201233}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ndt_REF:foot_R0_1_jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1808,7 +1962,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3665833600124774019}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ndt_REF:jnt_org
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1840,7 +1994,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5298251501716731312}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ndt_REF:leg_R2_end_jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1872,7 +2026,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1527483980283371877}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ndt_REF:leg_R1_5_jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1904,7 +2058,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7315689664118387989}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ndt_REF:leg_L2_1_jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1936,7 +2090,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 949509832112869051}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ndt_REF:foot_L2_0_jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1968,7 +2122,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 716838095661350786}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ndt_REF:antenea_L0_2_jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2000,7 +2154,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6271481290017179889}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ndt_REF:global_C0_jnt_org
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2032,7 +2186,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4684337843288699014}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ndt_REF:buttTalons_R0_0_jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2063,7 +2217,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7529836668034133621}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ndt_REF:foot_L1_0_jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2095,7 +2249,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7519945627477000663}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ndt_REF:leg_R0_3_jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2127,7 +2281,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4822099465608832006}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ndt_REF:leg_L0_8_jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2159,7 +2313,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1979234487904126372}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ndt_REF:antenea_R0_6_jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2190,7 +2344,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1366926833689803935}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ndt_REF:mandible_R0_0_jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2221,7 +2375,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2521355014905560913}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ndt_REF:leg_R0_end_jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2253,7 +2407,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4474534322637349984}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ndt_REF:leg_L2_end_jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2285,7 +2439,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2047407585371376418}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ndt_REF:antenea_R0_5_jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2318,7 +2472,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1020703673875420529}
   - component: {fileID: 4490565026571130404}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ndt_REF:body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2456,7 +2610,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 127997538756587187}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ndt_REF:leg_L1_8_jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2488,7 +2642,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3539828787919137199}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ndt_REF:leg_R2_8_jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2520,7 +2674,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1520141782370953110}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ndt_REF:leg_L1_4_jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2552,7 +2706,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3338635219464086796}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ndt_REF:leg_R0_1_jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2584,7 +2738,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5526788389400166917}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ndt_REF:leg_R0_5_jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2616,7 +2770,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 422264453559225020}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ndt_REF:leg_R1_7_jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2648,7 +2802,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4374713560796078498}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ndt_REF:foot_L1_1_jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2679,7 +2833,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9204832761022956207}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ndt_REF:foot_L2_1_jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2710,7 +2864,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2139963869646143871}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ndt_REF:buttTalons_L0_0_jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2741,7 +2895,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 814753874779716593}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ndt_REF:leg_L1_6_jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2773,7 +2927,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6599462384074742391}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ndt_REF:leg_L2_3_jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2805,7 +2959,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2706932426806076446}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ndt_REF:leg_R2_4_jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2837,7 +2991,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2635158920821073527}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ndt_REF:leg_R0_4_jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2869,7 +3023,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2882152995399853523}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ndt_REF:leg_R1_1_jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2901,7 +3055,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2674947808264023243}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ndt_REF:leg_R2_5_jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2933,7 +3087,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3708453605479299197}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ndt_REF:leg_L0_1_jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2965,7 +3119,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5512028358386036345}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ndt_REF:foot_R0_0_jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2997,7 +3151,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6302796819601653183}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ndt_REF:foot_L0_0_jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3029,7 +3183,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7140576400293803203}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ndt_REF:neck_C0_0_jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3061,7 +3215,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 718002874704800731}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ndt_REF:leg_L0_6_jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3093,7 +3247,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6769181920734014239}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ndt_REF:antenea_R0_4_jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3125,7 +3279,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2990995655945467025}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ndt_REF:leg_L1_5_jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3157,7 +3311,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3853691142319905763}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ndt_REF:leg_R2_6_jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3189,7 +3343,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3600418237739999813}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ndt_REF:neck_C0_3_jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3221,7 +3375,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5434331904990288303}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ndt_REF:leg_R0_2_jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3253,7 +3407,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2796918555573838540}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ndt_REF:foot_L0_1_jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3284,7 +3438,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7958979247319874746}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ndt_REF:mandible_L0_0_jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3315,7 +3469,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4581683677293597351}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ndt_REF:antenea_L0_5_jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3347,7 +3501,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4351914025658765184}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ndt_REF:antenea_R0_1_jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3379,7 +3533,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7888823301118713256}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ndt_REF:antenea_L0_0_jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3411,7 +3565,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3823079931465108563}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ndt_REF:foot_R2_0_jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3444,7 +3598,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1096327697780636221}
   - component: {fileID: 633395874195088654}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ndt_REF:midLegs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3562,7 +3716,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1281013975602244040}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ndt_REF:leg_R1_4_jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3594,7 +3748,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 936155166212003330}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ndt_REF:leg_R0_6_jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3626,7 +3780,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7772599809438292343}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ndt_REF:foot_R1_1_jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3657,7 +3811,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7742973657055034161}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ndt_REF:spine_C0_0_jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3696,7 +3850,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6518151421605492448}
   - component: {fileID: 8731500020980821107}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ndt_REF:frontLegs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3818,7 +3972,7 @@ GameObject:
   - component: {fileID: 6931148808126838874}
   - component: {fileID: 6931148808126838873}
   - component: {fileID: 6931148808126838872}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Nina De la Tierra
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3838,6 +3992,8 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 5488494812682283757}
+  - {fileID: 8535508819630804190}
+  - {fileID: 8143314664215064355}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3883,6 +4039,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Player: {fileID: 0}
+  targetRange: 2
 --- !u!195 &6931148808126838872
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -3914,7 +4071,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7986575967982524403}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ndt_REF:leg_R1_end_jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3946,7 +4103,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1236080541143522690}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ndt_REF:leg_R0_8_jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3978,7 +4135,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1570902833316805121}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ndt_REF:foot_R1_0_jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4010,7 +4167,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 476177421288438417}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ndt_REF:spine_C0_1_jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4042,7 +4199,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4091955454910647165}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ndt_REF:neck_C0_2_jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4074,7 +4231,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6684588525582788413}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ndt_REF:leg_L0_5_jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4106,7 +4263,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2167778097483065205}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ndt_REF:leg_R1_6_jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4138,7 +4295,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8224611316624835815}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ndt_REF:leg_L0_4_jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4170,7 +4327,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7152003355643314699}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ndt_REF:global_C0_0_jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4203,7 +4360,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8796764171762758404}
   - component: {fileID: 1898505964947499093}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ndt_REF:buttTalons
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4299,7 +4456,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2088552579210982509}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ndt_REF:leg_R2_7_jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4331,7 +4488,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6346046609321176994}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ndt_REF:leg_L0_7_jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4363,7 +4520,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5904366532253290817}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ndt_REF:antenea_R0_2_jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4395,7 +4552,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5356252613901039979}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ndt_REF:leg_L1_3_jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4427,7 +4584,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5689065046159605821}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ndt_REF:leg_L1_7_jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4459,7 +4616,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1569600629971248400}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ndt_REF:antenea_L0_4_jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4491,7 +4648,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5507755139691109191}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ndt_REF:antenea_R0_0_jnt
   m_TagString: Untagged
   m_Icon: {fileID: 0}

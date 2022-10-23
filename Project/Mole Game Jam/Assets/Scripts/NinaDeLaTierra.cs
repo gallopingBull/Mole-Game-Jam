@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
@@ -7,16 +5,8 @@ public class NinaDeLaTierra : MonoBehaviour
 {
     private NavMeshAgent navMeshAgent;
     [SerializeField]private Transform Player;
-
+    public float targetRange = 4.5f;
     private Transform T;
-
-    [Header("Movement")]
-    [SerializeField] private Transform[] Positions;
-    [SerializeField] private float speed;
-    private Transform nextPos;
-    private int nextPosIndex;
-    public float StartDelay;
-    private float Delay;
 
     private void Awake()
     {
@@ -24,55 +14,36 @@ public class NinaDeLaTierra : MonoBehaviour
         T = this.transform;
     }
 
-    void Start()
+    private void Update()
     {
-        nextPos = Positions[0];
-        Delay = StartDelay;
-    }
-
-    void Update()
-    {
-        float targetRange = 4.5f;
-        if (Distance() < targetRange)
+        if (Distance() < targetRange && PlayerController.Instance.GetComponent<HideComponent>().IsVisible)
         {
-            navMeshAgent.destination = Player.position;
-        }
-        else
-        {
-            Patrol();
-        }
-
-    }
-
-    public void Patrol()
-    {
-        if (transform.position == nextPos.position)
-        {
-            Delay -= Time.deltaTime;
-            if (Delay <= 0)
+            if (!CheckForObstructions(Player.position))
             {
-                nextPosIndex++;
-                Delay = StartDelay;
+                navMeshAgent.destination = Player.position;
+                Debug.Log("can approach player");
             }
-
-            if (nextPosIndex >= Positions.Length)
+            else
             {
-
-                //nextPos = Positions[nextPosIndex];
-                nextPosIndex = (nextPosIndex + 0) % Positions.Length;
+                Debug.Log("obstructed");
             }
-            nextPos = Positions[nextPosIndex];
-        }
-        else
-        {
-            transform.position = Vector3.MoveTowards(transform.position, nextPos.position, speed * Time.deltaTime);
         }
     }
 
+    private bool CheckForObstructions(Vector3 targetPos)
+    {
+        RaycastHit hit;
+        Vector3 dir = (T.position - targetPos);
+        if (Physics.Raycast(T.position, dir, out hit, targetRange))
+        {
+            if (hit.collider.gameObject.tag == "Wall" || hit.collider.gameObject.tag == "DiggableWall")
+                return true;
+        }
+        return false;
+    }
 
     private float Distance()
     {
         return Vector3.Distance(T.position, Player.position);
     }
-
 }
